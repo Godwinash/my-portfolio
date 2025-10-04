@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/a37d3d40f8.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio Website - Godwin Ashiekaa</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <span class="fas" onclick="closemenu()">&times;</span>
+                </ul>
+                <span class="fas" onclick="openmenu()">&#8801;</span>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm a <span>Godwin</span><br>Ash from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Snapchat-803618021~2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quam modi explicabo obcaecati cumque eaque, harum repellat amet nam possimus. Ab fugiat qui nihil eum, voluptatum dolor. Aliquam, in doloribus?</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd</li>
+                            <li><span>2016 - 2017</span><br>Internship at Ekart Commerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Desing Training at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalore</li>
+                            <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>English</span><br>Native Speaker</li>
+                            <li><span>Hausa</span><br>Intermediate</li>
+                            <li><span>Spanish</span><br>Intermediate</li>
+                            <li><span>Chinese</span><br>Intermediate</li>
+                            <li><span>Japanese</span><br>Amateur</li>
+                            <li><span>Korean</span><br>Beginner</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services-------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,     voluptatibus.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h3>App Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- --------------portfolio------------------ -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="social-media3.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to talented people around the world. Download it from playstore</p>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="music-app2.jpg" alt="">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you to talented people around the world. Download it from playstore</p>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="shopping-app2.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you to talented people around the world. Download it from playstore</p>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+     <!-- ---------------contact-------------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ashiekaagodwin@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 2349011016022</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/profile.php?id=100074131008943"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/god_dy18/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="wa.me/2349011016022"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://twitter.com/@godwin6201"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="Snapchat-803618021.jpg" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required >
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2023 Godwin Ashiekaa. <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+        </div>
+      </div>
+</body>
+<script src="portfolio.js"></script>
+</html>
